@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhone, FaEnvelope, FaAddressCard, FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaLocationArrow} from 'react-icons/fa'
 
 export default function Contact(){
   return (
@@ -29,11 +29,11 @@ export default function Contact(){
         <div className='flex-col space-y-3 text-justify mt-8'> 
           <div className='flex space-x-2'>
             <div className='p-5 rounded-full bg-green-500'>
-              <FaAddressCard size={15} className='text-white'/>
+              <FaLocationArrow size={15} className='text-white'/>
             </div>
             <div>
                <h1 className='font-bold md:text-lg text-md'> Adresse</h1>
-               <p className='text-sm text-gray-500'>Avenue de L'indépendence</p>
+               <p className='text-sm text-gray-500'>Avenue D.Dacko</p>
             </div>
           </div>
           <div className='flex space-x-2'>
