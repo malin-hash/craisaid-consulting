@@ -10,7 +10,7 @@ export default function Header({ setTheme }){
   return (
     <header className="fixed top-0 left-0 right-0 bg-white dark:bg-black p-4 z-50 mb-32">
       <div className="container flex items-center justify-between ">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-0">
           <div className="h-14 md:w-52 w-20 flex items-center justify-center text-white font-bold">
               <img src="/ecole/logo.JPG" alt="" className='h-20 w-full'/>
           </div>
