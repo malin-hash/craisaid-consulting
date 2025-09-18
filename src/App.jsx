@@ -18,11 +18,11 @@ export default function App(){
         <Header theme={theme} setTheme={setTheme} />
         {/* <Sidebar/> */}
         <main className="pt-16">
-          <div className='p-8'>
+          <div className='p-8 bg-slate-200'>
             <section id="home"><Home /></section>
           </div>
-          <Element name="about"><About /></Element>
           <Element name="services"><Services /></Element>
+          <Element name="about"><About /></Element>
           <Element name="projects"><Projects /></Element>
           <Element name="contact"><Contact /></Element>
         </main>

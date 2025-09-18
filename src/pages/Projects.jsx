@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { FiArrowRight } from 'react-icons/fi'
 
 const demo = [
-  {id:1, title:'Projet A', subtitle:'Coaching scolaire', description: 'Détail du projet A: coaching pour jeunes.', docs: [{label:'Télécharger PDF', href:'/src/assets/project-A.pdf'}]},
+  {id:1, title:'Projet de Création de nola ', subtitle:'Coaching scolaire', description: 'Détail du projet A: coaching pour jeunes.', docs: [{label:'Télécharger PDF', href:'/src/assets/project-A.pdf'}]},
   {id:2, title:'Projet B', subtitle:'Incubateur local', description: 'Détail du projet B: création d\'incubateur.', docs: [{label:'Télécharger PDF', href:'/src/assets/project-B.pdf'}]},
   {id:2, title:'Projet B', subtitle:'Incubateur local', description: 'Détail du projet B: création d\'incubateur.', docs: [{label:'Télécharger PDF', href:'/src/assets/project-B.pdf'}]},
   {id:3, title:'Projet C', subtitle:'Formation numérique', description: 'Détail du projet C: formation en compétences numériques.'},
@@ -14,8 +14,8 @@ const demo = [
 export default function Projects(){
   const [selected, setSelected] = useState(null)
   return (
-    <div className="container py-20 text-center bg-slate-200 w-full p-12 ">
-      <h2 className="text-2xl font-bold mb-6">Projets réalisés</h2>
+    <div className="container py-10 text-center bg-slate-100 w-full p-12 ">
+      <h2 className="text-2xl font-bold mb-6 cont"><span className='text-green-500'>Nos</span> Réalisations</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
         {demo.map((p, i) => (
           <motion.div key={p.id} initial={{opacity:0, y:20}} animate={{opacity:1, y:0}} transition={{delay: i * 0.08}}>

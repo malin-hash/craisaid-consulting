@@ -1,14 +1,15 @@
 import React from 'react'
 import { FaPhone, FaEnvelope, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaLocationArrow} from 'react-icons/fa'
+import { MdLocationOn } from 'react-icons/md'
 
 export default function Contact(){
   return (
-    <div className="container py-20 text-center p-24" id="contact-form">
-      <h2 className="text-2xl font-bold">Contactez-nous </h2>
+    <div className="container py-10 text-center p-24" id="contact-form">
+      <h2 className="text-2xl font-bold content"><span className='text-green-500'>C</span>ontactez-<span className='text-green-500'>n</span>ous </h2>
       <p className='text-sm text-gray-400 mb-6'>Nous sommes là pour répondre à vos besoins</p>
     <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
       <div>
-        <form className="space-y-3">
+        <form className="space-y-3 cont">
           <div>
             <h1 className="font-bold text-xl">Envoyez-nous un message</h1>
             <p className='text-sm text-gray-400 mt-0'>Ecrivez-nous à n'importe quelle heure</p>
@@ -23,13 +24,13 @@ export default function Contact(){
           <button type="submit" className="px-4 py-2 bg-green-500 text-white rounded w-full hover:bg-green-600">Envoyer</button>
         </form>
       </div>
-      <div>
+      <div className='cont'>
         <h1 className="font-bold text-xl">Information sur le contact</h1>
         <p className='text-sm text-gray-400 mb-2'>Comment nous contactez</p>
         <div className='flex-col space-y-3 text-justify mt-8'> 
           <div className='flex space-x-2'>
             <div className='p-5 rounded-full bg-green-500'>
-              <FaLocationArrow size={15} className='text-white'/>
+              <MdLocationOn size={15} className='text-white'/>
             </div>
             <div>
                <h1 className='font-bold md:text-lg text-md'> Adresse</h1>

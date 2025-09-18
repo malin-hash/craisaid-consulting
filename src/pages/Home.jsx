@@ -6,7 +6,7 @@ export default function Home(){
   return (
     <div className="container p-8 bg-green-600 text-center rounded-lg">
       <h2 className="text-3xl font-bold mb-4  text-white">{t('welcome')}</h2>
-      <p className=" text-gray-300">CRISAID Consulting propose du coaching, de l'entrepreneuriat <br /> et du développement personnel.</p>
+      <p className=" text-gray-300">CrSAID Consulting propose du coaching, de l'entrepreneuriat <br /> et du développement personnel.</p>
     </div>
   )
 }

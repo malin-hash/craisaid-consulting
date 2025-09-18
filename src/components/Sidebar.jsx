@@ -16,11 +16,11 @@ export default function Sidebar({ open, onClose }){
         </div>
         {/* <p className='p-2 font-bold text-lg'>Menu</p> */}
         <nav className="flex flex-col px-8">
-           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-99} activeClass='bg-green-500 text-center text-lg' to="home" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-300 font-semibold'>{t('home')}</Link>
-           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="about"className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-300 font-semibold'>{t('about')}</Link>
-           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="services" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-300 font-semibold'>{t('services')}</Link>
-           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="projects" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-300 font-semibold'>{t('projects')}</Link>
-           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="contact" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-300 font-semibold'>{t('contact')}</Link>
+           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-99} activeClass='bg-green-500 text-center text-lg' to="home" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-500 font-semibold'>{t('home')}</Link>
+           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="services" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-500 font-semibold'>Expertises</Link>
+           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="about"className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-500 font-semibold'>{t('about')}</Link>
+           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="projects" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-500 font-semibold'>Réalisations</Link>
+           <Link onClick={onClose} smooth={true} duration={600} spy={true} offset={-90} activeClass='bg-green-500 text-center text-lg' to="contact" className='mb-2  block p-3 hover:bg-green-500 rounded-lg  cursor-pointer transition-all duration-500 font-semibold'>{t('contact')}</Link>
         </nav>
         <hr />
         <h1 className='p-4 font-bold ml-4'>Nos réseaux sociaux</h1>

@@ -3,4 +3,35 @@
 @tailwind utilities;
 
 /* small helpers */
-.container { max-width: 100%; }
+.container {
+     max-width: 100%;
+     animation: anim linear 1s;
+
+     }
+
+/* Animations */
+.content {
+     animation: anim linear;
+     animation-timeline: view();
+     animation-range-start:cover 0% ;
+     animation-range-end: contain 20%;
+}
+.cont {
+     animation: anim linear;
+     animation-timeline: view();
+     animation-range-start:cover 0% ;
+     animation-range-end: cover 20%;
+}
+
+/*keyframes */
+
+@keyframes anim {
+    from {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
