@@ -12,7 +12,7 @@ export default function Header({ setTheme }){
       <div className="container flex items-center justify-between ">
         <div className="flex items-center gap-0">
           <div className="h-14 md:w-52 w-20 flex items-center justify-center text-white font-bold">
-              <img src="/logo.JPG" alt="" className='h-20 w-full' />
+              <img src="/public/logo.JPG" alt="" className='h-20 w-full' />
           </div>
           <div className="h-10 md:w-52 w-20 flex items-center justify-center text-white font-bold">
               <img src="/logo2.JPG" alt="" className='h-16 w-52' />
