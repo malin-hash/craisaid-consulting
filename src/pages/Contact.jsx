@@ -4,10 +4,10 @@ import { MdLocationOn } from 'react-icons/md'
 
 export default function Contact(){
   return (
-    <div className="container py-10 text-center p-24" id="contact-form">
+    <div className="container py-10 text-center lg:px-24 px-12" id="contact-form">
       <h2 className="text-2xl font-bold content"><span className='text-green-500'>C</span>ontactez-<span className='text-green-500'>n</span>ous </h2>
       <p className='text-sm text-gray-400 mb-6'>Nous sommes là pour répondre à vos besoins</p>
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
       <div>
         <form className="space-y-3 cont">
           <div>
