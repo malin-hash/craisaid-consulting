@@ -20,14 +20,14 @@ export default function Header({ setTheme }){
         </div>
 
         <nav className="hidden md:flex gap-8 items-center">
-          <Link smooth={true} duration={600} spy={true} offset={-99} activeClass='text-primary border-b-2 border-green-500' to="home" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-500 font-semibold">{t('home')}</Link>
-          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="services" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-500 font-semibold">Expertises</Link>
-          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="about" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-500 font-semibold">{t('about')}</Link>
-          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="projects" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-500 font-semibold">Réalisations</Link>
-          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="contact" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-500 font-semibold">{t('contact')}</Link>
+          <Link smooth={true} duration={600} spy={true} offset={-99} activeClass='text-primary border-b-2 border-green-500' to="home" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-300 font-semibold">{t('home')}</Link>
+          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="services" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-300 font-semibold">Expertises</Link>
+          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="about" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-300 font-semibold">{t('about')}</Link>
+          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="projects" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-300 font-semibold">Réalisations</Link>
+          <Link smooth={true} duration={600} spy={true} offset={-90} activeClass='text-primary border-b-2 border-green-500' to="contact" className="cursor-pointer hover:text-primary border-b-2 hover:border-green-500 transition-all duration-300 font-semibold">{t('contact')}</Link>
           {/* <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="px-3 py-1 border rounded">{theme === 'dark' ? 'Light' : 'Dark'}</button> */}
         </nav>
-        <div className="md:hidden">
+        <div className="md:hidden hover:text-green-500 transition-colors duration-300">
           <button onClick={() => setOpen(true)} aria-label="open menu"><FaBars size={22} /></button>
         </div>
       </div>

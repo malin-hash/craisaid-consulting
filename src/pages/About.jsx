@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About(){
   return (
-    <div className="container py-10 w-full bg-[url('/ecole/ecole3.jpg')] bg-cover bg-center md:px-64 h-screen">
+    <div className="container py-10 w-full bg-[url('/ecole/ecole2.jpg')] bg-cover bg-center md:px-64 h-screen">
       <h2 className="text-xl font-bold mb-4 text-center text-green-500 content">Qui nous sommes ? </h2>
       <div className='grid grid-cols-1 gap-4 px-8'>
         <div>

@@ -14,13 +14,13 @@ export default function Contact(){
             <h1 className="font-bold text-xl">Envoyez-nous un message</h1>
             <p className='text-sm text-gray-400 mt-0'>Ecrivez-nous à n'importe quelle heure</p>
           </div>
-          <input className="w-full border-2 rounded p-2" placeholder="Votre nom" />
+          <input className="w-full border-2 border-gray-600 rounded p-2 hover:border-green-500 cursor-pointer" placeholder="Votre nom" />
           <div className='grid md:grid-cols-2 grid-cols-1 gap-2'>
-            <input className="w-full border-2 rounded p-2" placeholder="Votre Prénom" />
-            <input className="w-full border-2 rounded p-2" placeholder="Objet du message" />
+            <input className="w-full border-2 border-gray-600 rounded p-2 hover:border-green-500 cursor-pointer" placeholder="Votre Prénom" />
+            <input className="w-full border-2 border-gray-600 rounded p-2 hover:border-green-500 cursor-pointer" placeholder="Objet du message" />
           </div>
-          <input className="w-full border-2 rounded p-2" placeholder="Votre Email" />
-          <textarea className="w-full border-2 rounded p-2 resize-none" rows="6" placeholder="Message"></textarea>
+          <input className="w-full border-2 border-gray-600 rounded p-2 hover:border-green-500 cursor-pointer" placeholder="Votre Email" />
+          <textarea className="w-full border-2 border-gray-600 rounded p-2 resize-none hover:border-green-500 cursor-pointer" rows="6" placeholder="Message"></textarea>
           <button type="submit" className="px-4 py-2 bg-green-500 text-white rounded w-full hover:bg-green-600">Envoyer</button>
         </form>
       </div>
@@ -60,10 +60,10 @@ export default function Contact(){
           <h1 className='font-semibold mt-3'>Nos réseaux sociaux</h1>
           <p className='text-sm text-gray-500'>Vous pouvez nous retrouver sur ces différents réseaux.</p>
           <div className="mt-3 justify-center flex gap-4 px-3 py-2">
-            <FaFacebook size={20}  className='hover:text-green-400 transition-all duration-300'/>
-            <FaTwitter size={20}  className='hover:text-green-400 transition-all duration-300'/>
-            <FaLinkedin size={20}  className='hover:text-green-400 transition-all duration-300'/>
-            <FaInstagram  size={20} className='hover:text-green-400 transition-all duration-300'/>
+            <FaFacebook size={20}  className='text-xl hover:text-blue-600 hover:bg-white rounded-full p-1 text-white bg-blue-600 cursor-pointer transition-colors duration-300'/>
+            <FaTwitter size={20}  className='text-xl text-blue-400 hover:text-blue-500 cursor-pointer'/>
+            <FaLinkedin size={20}   className='text-xl text-purple-600 hover:text-purple-500 cursor-pointer'/>
+            <FaInstagram  size={20} className='text-xl text-orange-600 hover:text-orange-500 cursor-pointer hover:shadow-orange-500 shadow-transparent'/>
           </div>
         </div>
       </div>
